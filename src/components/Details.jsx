@@ -24,7 +24,7 @@ const Details = () => {
             <Link to="/recipes" className="text-3xl ri-arrow-left-line"></Link>
             <div className="details w-full flex h-[75vh] mt-3">
                 <div className="dets w-[50%] p-[3%] shadow">
-                    <img className="" src={recipe.image} alt="" />
+                    <img className="h-[200px]" src={recipe.image} alt="" />
                     <h1 className="text-xl mb-5 mt-[10%] text-center">
                         {recipe.title}
                     </h1>
