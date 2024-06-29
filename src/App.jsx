@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import Nav from "./components/Nav";
-
 import { Route, Routes } from "react-router-dom";
 import Layout from "./components/Layout";
 import Recipes from "./components/Recipes";
